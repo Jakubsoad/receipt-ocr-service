@@ -1,0 +1,7 @@
+POST http://localhost:8088/api/ocr
+Content-Type: application/json
+
+{
+  "image_url": "https://images.iberion.media/images/origin/Image_20240504_160538_214_6fbb160765.jpg",
+  "instructions": "this is shop receipt. i want you to return to me json with positions: name and price and also total price"
+}

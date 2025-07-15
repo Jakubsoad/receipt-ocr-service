@@ -15,5 +15,7 @@ go.work
 service-account.json
 
 .env
-
+.junie/
 receipt-ocr-service
+.idea
+
